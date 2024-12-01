@@ -22,7 +22,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $site-title-font-family;
+    font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -49,6 +49,8 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
+  font-family: $site-title-font-family;
+
   // z-index: 20;
 }
 
@@ -58,6 +60,7 @@
 }
 
 .masthead__menu {
+  font-family: $sans-serif-narrow;
   float: inline-start;
   margin-inline: 0;
   width: 100%;
@@ -80,7 +83,6 @@
 }
 
 .masthead__menu-item {
-  font-family: $sans-serif-narrow;
   display: block;
   list-style-type: none;
   white-space: nowrap;
